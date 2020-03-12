@@ -1,10 +1,11 @@
 import React from 'react';
+import List from '../components/list/List'
 
 const Home = () => {
     return (
-        <div>
-            Soy una futura lista
-        </div>
+            <List>
+                Soy una futura lista
+            </List>
     )
 }
 
